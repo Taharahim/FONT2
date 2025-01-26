@@ -10,14 +10,14 @@ body {
   background-color: #f2efe7;
 }
 h1 {
-  color: #2973b2;
+  color:#48a6a7;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
   font-size:auto;
 }
 h2 {
-  color: #2973b2;
+  color:#48a6a7;
   font-weight: bold;
   text-align: left;
   text-decoration: underline;
@@ -25,21 +25,39 @@ h2 {
 
 }
 #eng {
-  color: #48a6a7;
+  text-indent:10px;
+  color: #2973b2;
   text-align: left;
   word-spacing: 3px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: auto;
 }
 #urdu {
+  text-indent:10px;
   text-align: right;
-  color: #48a6a7;
+  color:#2973b2;
   word-spacing: 3px;
   font-family: "Noto Nastaliq Urdu", serif;
 }
 #arab {
+  text-indent:10px;
   text-align: right;
-  color: #48a6a7;
+  color: #2973b2;
   word-spacing: 3px;
   font-family: "Noto Nastaliq Urdu", serif;
+}
+
+img{
+  height:450px;
+  width:450px;
+  border: 1px solid;
+}
+figcaption{
+  color: #2973b2;
+  border-collapse: collapse;
+  display:table;
+}
+#pic2{
+  height:350px;
+  width:350px;
 }
