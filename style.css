@@ -3,7 +3,7 @@
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: auto;
+  padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
@@ -14,14 +14,14 @@ h1 {
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
-  font-size: auto;
+  font-size: 2em;
 }
 h2 {
   color: #48a6a7;
   font-weight: bold;
   text-align: left;
   text-decoration: underline;
-  font-size: auto;
+  font-size: 1.5em;
 }
 #eng {
   text-indent: 10px;
@@ -29,7 +29,7 @@ h2 {
   text-align: left;
   word-spacing: 3px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: auto;
+  font-size: 1em;
 }
 #urdu {
   text-indent: 10px;
@@ -37,24 +37,24 @@ h2 {
   color: #2973b2;
   word-spacing: 3px;
   font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 1em;
 }
 #arab {
   text-indent: 10px;
   text-align: right;
   color: #2973b2;
   word-spacing: 3px;
+  font-size: 1em;
   font-family: "Noto Nastaliq Urdu", serif;
 }
 
 img {
   height: 450px;
   width: 450px;
-  border: 1px solid;
+  border: 1px solid black;
 }
 figcaption {
   color: #2973b2;
-  border-collapse: collapse;
-  display: table;
 }
 #pic2 {
   height: 350px;
