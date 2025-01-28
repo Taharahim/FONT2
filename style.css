@@ -47,20 +47,33 @@ h2 {
   font-size: 1em;
   font-family: "Noto Nastaliq Urdu", serif;
 }
-
-img {
-  height: 450px;
-  width: 450px;
-  border: 1px solid black;
-}
-figcaption {
-  color: #2973b2;
-}
-#pic2 {
-  height: 350px;
-  width: 350px;
-}
 P {
   font-family: Arial, Helvetica, sans-serif;
+  color: #2973b2;
+}
+.image-container {
+  text-align: center;
+  margin: 20px;
+}
+.image-container:img {
+  max-width: 450px;
+  height: auto;
+}
+.image-container:p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2973b2;
+}
+.image {
+  text-align: center;
+  margin: 20px;
+}
+.image:img {
+  max-width: 450px;
+  height: auto;
+}
+.image:p {
+  margin-top: 10px;
+  font-size: 16px;
   color: #2973b2;
 }
